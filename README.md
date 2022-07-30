@@ -1,5 +1,5 @@
 <div align="center">
-  <img width=90% src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/update-2.0/media/banner.png" alt="banner" />
+  <img width=90% src="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/raw/main/media/banner.png" alt="banner" />
 </div>
 
 <div align="center">
