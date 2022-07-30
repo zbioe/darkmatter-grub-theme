@@ -4,13 +4,13 @@
 
 <div align="center">
   <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/raw/main/LICENSE">
-    <img src="https://img.shields.io/badge/License%20GPL--3.0-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="license" />
+    <img src="https://img.shields.io/badge/License%20GPL--3.0-008a8a?style=for-the-badge" alt="license" />
   </a>
-  <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/Download-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="license" />
+  <a href="https://www.pling.com/p/1569525">
+    <img src="https://img.shields.io/badge/Download-green?style=for-the-badge" alt="license" />
   </a>
-  <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/github%20(mirror)-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="version" />
+  <a href="https://github.com/VandalByte/darkmatter-grub2-theme">
+    <img src="https://img.shields.io/badge/github%20(mirror)-303030?style=for-the-badge" alt="license" />
   </a>
 </div>
 
