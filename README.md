@@ -3,21 +3,21 @@
 </div>
 
 <div align="center">
-  <a href="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/LICENSE">
-    <img src="https://img.shields.io/badge/License%20GPL--3.0-008a8a?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+  <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/raw/main/LICENSE">
+    <img src="https://img.shields.io/badge/License%20GPL--3.0-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="license" />
   </a>
   <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/Download-green?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+    <img src="https://img.shields.io/badge/Download-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="license" />
   </a>
   <a href="https://www.pling.com/p/1603282">
-    <img src="https://img.shields.io/badge/Version--2.0-ff173f?style=for-the-badge&logo=github&logoColor=000000" alt="version" />
+    <img src="https://img.shields.io/badge/github%20(mirror)-000000?style=for-the-badge&logo=gitlab&logoColor=000000" alt="version" />
   </a>
 </div>
 
 ### ✔️ Installation
 
 ```shell
-git clone --depth 1 https://github.com/VandalByte/darkmatter-grub2-theme.git && cd darkmatter-grub2-theme
+git clone --depth 1 https://gitlab.com/VandalByte/darkmatter-grub-theme.git && cd darkmatter-grub-theme
 sudo python3 darkmatter-theme.py --install
 ```
 
