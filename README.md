@@ -1,92 +1,149 @@
-# Dark Matter GRUB Theme
+<div align="center">
+  <img width=90% src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/update-2.0/media/banner.png" alt="banner" />
+</div>
 
-Dark Matter GRUB Theme 👾💙
+<div align="center">
+  <a href="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/LICENSE">
+    <img src="https://img.shields.io/badge/License%20GPL--3.0-008a8a?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+  </a>
+  <a href="https://www.pling.com/p/1603282">
+    <img src="https://img.shields.io/badge/Download-green?style=for-the-badge&logo=github&logoColor=000000" alt="license" />
+  </a>
+  <a href="https://www.pling.com/p/1603282">
+    <img src="https://img.shields.io/badge/Version--2.0-ff173f?style=for-the-badge&logo=github&logoColor=000000" alt="version" />
+  </a>
+</div>
 
-## Getting started
+### ✔️ Installation
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
+```shell
+git clone --depth 1 https://github.com/VandalByte/darkmatter-grub2-theme.git && cd darkmatter-grub2-theme
+sudo python3 darkmatter-theme.py --install
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/VandalByte/darkmatter-grub-theme.git
-git branch -M main
-git push -uf origin main
+
+### ✔️ Manual Installation
+*Click to view...*
+<details>
+ <summary><b>Debian ✨ Ubuntu ✨ Arch</b></summary>
+ 
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
+
+  Now extract your downloaded .zip file.
+
+  Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
+  ```shell
+  unzip dark-matter-debian.zip
+  ```
+  *The rest of the commands are the same for all theme styles.*
+
+  #### 2️⃣ Copy the theme directory.
+  ```shell
+  sudo cp -r dark-matter /boot/grub/themes/
+  ```
+  #### 3️⃣ Make changes to the GRUB config file.
+
+  ```shell
+  sudo nano /etc/default/grub
+  ```
+  Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub/themes/dark-matter/theme.txt"`
+
+  Then save the file.
+
+  #### 4️⃣ Finally, update the grub.
+  ```shell
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+  Now the theme should be installed successfully, enjoy !!
+</details>
+
+<details>
+ <summary><b>Fedora ✨ Redhat</b></summary>
+ 
+  #### 1️⃣ Download your favourite version of the theme from [**Pling**](https://www.pling.com/p/1603282/).
+
+  Now extract your downloaded .zip file.
+
+  Either manually extract it or use the command below. ( *Here I'm using debian version of my theme as an example* )
+  ```shell
+  unzip dark-matter-debian.zip
+  ```
+  *The rest of the commands are the same for all theme styles.*
+
+  #### 2️⃣ Copy the theme directory.
+  ```shell
+  sudo cp -r dark-matter /boot/grub2/themes/
+  ```
+  #### 3️⃣ Make changes to the GRUB config file.
+
+  ```shell
+  sudo nano /etc/default/grub
+  ```
+  Find the line `GRUB_THEME=` then change it to `GRUB_THEME="/boot/grub2/themes/dark-matter/theme.txt"`
+ 
+  Change the line `GRUB_TERMINAL_OUTPUT=console` to this *(comment it out)* `#GRUB_TERMINAL_OUTPUT=console`
+
+  Then save the file.
+
+  #### 4️⃣ Finally, update the grub.
+  ```shell
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+  ```
+  Now restart your computer the grub theme should be installed successfully, enjoy !!
+</details>
+
+> **To request a theme for a specific Linux distro, open an issue with the `feature request` label and let me know**
+
+### ❌ Uninstallation
+```shell
+sudo python3 darkmatter-theme.py --uninstall
 ```
+**With a little effort the theme's text colours, progress bar colours, progress bar text, and so on can all be customised in `theme.txt` to your liking 💕**
+<div align="center">
+  <b>Please consider 🤗 giving this project a star ⭐ if you liked it</b>
+</div>
 
-## Integrate with your tools
+<div align="center">
+  <b>Follow me on 💬 <a href="https://github.com/VandalByte">Github</a> or 💬 <a href="https://twitter.com/VandalByte">Twitter</a>  to stay up to date on all future updates ...</b>
+</div>
 
-- [ ] [Set up project integrations](https://gitlab.com/VandalByte/darkmatter-grub-theme/-/settings/integrations)
+  
+## 📸 Preview
 
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+<div align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-artix.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-lubuntu.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-sparky.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linuxlite.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-slackware.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kubuntu.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-devuan.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-elementary.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-openbsd.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-deepin.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-opensuse.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kdeneon.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-garuda.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntumate.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-centos.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-solus.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-endeavour.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-zorin.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-archstrike.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-kali.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-parrot.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-redhat.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-blackarch.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-gentoo.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-pentoo.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-linux.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-debian.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-arch.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-ubuntu.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-manjaro.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows-11.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-mx.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-mint.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-void.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-fedora.png" />
+  <img width="48%" src="https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-popos.png" />
+</div>
