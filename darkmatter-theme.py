@@ -167,6 +167,8 @@ def install():
         "38": "windows10",
         "39": "windows11",
         "40": "zorin",
+        "41": "guixsd",
+        "42": "nixos",
     }
 
     print(f"\n{B}(?){C} \033[0;33mChoose the STYLE\033[0m :")
@@ -185,7 +187,7 @@ def install():
     (31)  Slackware    (32)  Solus          (33)  Sparky Linux
     (34)  SteamOS      (35)  Ubuntu         (36)  Ubuntu Mate
     (37)  Void Linux   (38)  Windows 10     (39)  Windows 11
-    (40)  ZorinOS
+    (40)  ZorinOS      (41)  GuixSD         (42)  NixOS
     """
     print(style_sheet_menu)
     choice = prompt(styles.keys())
