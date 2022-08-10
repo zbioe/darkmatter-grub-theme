@@ -137,5 +137,7 @@ sudo python3 darkmatter-theme.py --uninstall
 |**Ubuntu**|**Ubuntu Mate**|**Void Linux**|
 |![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows10.png)|![Windows](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-windows11.png)|![Zorin](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-zorin.png)|
 |**Windows 10**|**Windows 11**|**Zorin OS**|
-|![NixOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nixos.png)|![GuixSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-guixsd.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
-|**NixOS**|**GuixSD**|**PLACEHOLDER**|
+|![NixOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nixos.png)|![GuixSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-guixsd.png)|![DTOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-dtos.png)|
+|**NixOS**|**GuixSD**|**DTOS**|
+|![Xubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-xubuntu.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
+|**Xubuntu**|**-**|**-**|
