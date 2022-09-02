@@ -107,7 +107,7 @@ sudo python3 darkmatter-theme.py --install
       };
     };
 
-    outputs = inputs @ { self, nixpkgs, ... }: {
+    outputs = inputs @ { self, nixpkgs, darkmatter-grub-theme }: {
       nixosConfigurations.mysystem = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
