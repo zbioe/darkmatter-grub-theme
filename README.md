@@ -6,7 +6,7 @@
   <a href="https://gitlab.com/VandalByte/darkmatter-grub-theme/-/raw/main/LICENSE">
     <img src="https://img.shields.io/badge/License-008a8a?style=for-the-badge" alt="license" />
   </a>
-  <a href="https://www.pling.com/p/1569525">
+  <a href="https://www.pling.com/p/1603282">
     <img src="https://img.shields.io/badge/Download-green?style=for-the-badge" alt="license" />
   </a>
   <a href="https://github.com/VandalByte/darkmatter-grub2-theme">
@@ -195,5 +195,5 @@ sudo python3 darkmatter-theme.py --uninstall
 |**Windows 10**|**Windows 11**|**Zorin OS**|
 |![NixOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nixos.png)|![GuixSD](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-guixsd.png)|![DTOS](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-dtos.png)|
 |**NixOS**|**GuixSD**|**DTOS**|
-|![Xubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-xubuntu.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
-|**Xubuntu**|**-**|**-**|
+|![Xubuntu](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-xubuntu.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/preview-nobara.png)|![PLACEHOLDER](https://raw.githubusercontent.com/VandalByte/darkmatter-grub2-theme/main/media/previews/placeholder.png)|
+|**Xubuntu**|**Nobara**|**-**|

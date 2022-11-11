@@ -86,6 +86,7 @@
                   "nixos"
                   "xubuntu"
                   "dtos"
+                  "nobara"
                 ];
                 example = "nixos";
                 description = ''

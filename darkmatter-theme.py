@@ -171,6 +171,7 @@ def install():
         "42": "nixos",
         "43": "xubuntu",
         "44": "dtos",
+        "45": "nobara",
     }
 
     print(f"\n{B}(?){C} \033[0;33mChoose the STYLE\033[0m :")
@@ -190,7 +191,7 @@ def install():
     (34)  SteamOS      (35)  Ubuntu         (36)  Ubuntu Mate
     (37)  Void Linux   (38)  Windows 10     (39)  Windows 11
     (40)  ZorinOS      (41)  GuixSD         (42)  NixOS
-    (43)  Xubuntu      (44)  DTOS
+    (43)  Xubuntu      (44)  DTOS           (45)  Nobara
     """
     print(style_sheet_menu)
     choice = prompt(styles.keys())
